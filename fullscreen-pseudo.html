@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;
+            }
+            #box{
+                background: lightblue;
+                width: 300px;
+                height: 200px;
+            }
+            #box:fullscreen{
+                background-color: lightcoral;
+                font-size: 50px;
+            }
+        </style>
+    </head>
+</html>
+<body>
+    <div id="box">
+        <p>I`m in fullscreen mode</p>
+    </div>
+    <br>
+    <button onclick="document.getElementById('box').requestFullscreen();">Go fullscreen </button>
+</body>             
